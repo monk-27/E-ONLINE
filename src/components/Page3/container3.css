@@ -1,0 +1,50 @@
+.container3 {
+    margin-top: "500px";
+}
+.header { 
+    margin-left: 210px;
+    
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+  }
+  
+  .header h1 {
+    margin-right: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center; /* Align items in center on smaller screens */
+      margin-left: 10px;
+      margin-top: 50px;
+    }
+    
+    .header img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      text-align: center;
+    }
+    .header img:first-child {
+      margin-right: 0; /* Remove right margin from first image */
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

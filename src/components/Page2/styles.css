@@ -1,0 +1,20 @@
+.left-align {
+    display: "flex";
+    justify-Content: "flex";
+          align-Items: "center";
+          margin-left: 210px;
+          margin-top:50px
+
+  }
+  
+  @media (max-width: 768px) {
+    .left-align {
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
